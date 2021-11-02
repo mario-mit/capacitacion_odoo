@@ -10,7 +10,7 @@
         - Courses
         - Sessions
         - Attendees
-    """.
+    """,
     
     'author': 'M',
     
