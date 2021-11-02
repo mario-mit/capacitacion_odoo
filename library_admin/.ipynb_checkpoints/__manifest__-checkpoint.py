@@ -6,7 +6,7 @@
     'summary': "Library management app",
     
     'description': """
-        Library management app to manage:
+        Library management app to help to manage:
         - clients
         - books
         - lendings
