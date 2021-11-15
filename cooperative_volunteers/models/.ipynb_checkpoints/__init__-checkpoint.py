@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-import . from models
+from . import task_coop
