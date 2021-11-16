@@ -26,6 +26,6 @@
     ],
     
     'demo':[
-        
+        'demo/coopera_volunteers_demo.xml',
     ]
 }

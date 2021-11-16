@@ -26,6 +26,6 @@
     ],
     
     'demo': [
-        
+        'demo/space_mission_demo.xml'
     ]
 }
