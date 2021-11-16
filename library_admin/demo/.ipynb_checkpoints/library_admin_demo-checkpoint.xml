@@ -1,0 +1,98 @@
+<?xml version="1.0" coding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="library.book" id="book_01">
+            <field name="name">El libro uno</field>
+            <field name="authors">Autor 1\n
+                Autor 2\n
+                Autor 3\n
+            </field>
+            <field name="editor">Editor 1\n
+                Editor 2\n
+                Editor 3\n
+            </field>
+            <field name="editorial">La editorial</field>
+            <field name="year_edition">2000</field>
+            <field name="isbn">10-123-qwer-02</field>
+            <field name="gender">action</field>
+        </record>
+        <record model="library.book" id="book_02">
+            <field name="name">El libro dos</field>
+            <field name="authors">Autor 4\n
+                Autor 5\n
+                Autor 6\n
+            </field>
+            <field name="editor">Editor 4\n
+                Editor 5\n
+                Editor 6\n
+            </field>
+            <field name="editorial">La editorial del dos</field>
+            <field name="year_edition">2001</field>
+            <field name="isbn">10-123-zxcv-02</field>
+            <field name="gender">sports</field>
+        </record>
+        <record model="library.book" id="book_03">
+            <field name="name">El libro tres</field>
+            <field name="authors">Autor 7\n
+                Autor 8\n
+                Autor 9\n
+            </field>
+            <field name="editor">Editor 7\n
+                Editor 8\n
+                Editor 9\n
+            </field>
+            <field name="editorial">La editorial mejor</field>
+            <field name="year_edition">2002</field>
+            <field name="isbn">10-456-asdf-02</field>
+            <field name="gender">science</field>
+        </record>
+        <record model="library.book" id="book_04">
+            <field name="name">El libro cuatro</field>
+            <field name="authors">Autor 10\n
+                Autor 11\n
+                Autor 12\n
+            </field>
+            <field name="editor">Editor 10\n
+                Editor 11\n
+                Editor 12\n
+            </field>
+            <field name="editorial">La editorial otra</field>
+            <field name="year_edition">2005</field>
+            <field name="isbn">10-963-poiu-02</field>
+            <field name="gender">terror</field>
+        </record>
+        <record model="library.book" id="book_05">
+            <field name="name">El libro cinco</field>
+            <field name="authors">Autor 13\n
+                Autor 14\n
+                Autor 15\n
+            </field>
+            <field name="editor">Editor 13\n
+                Editor 14\n
+                Editor 15\n
+            </field>
+            <field name="editorial">La editorial 5</field>
+            <field name="year_edition">2010</field>
+            <field name="isbn">10-951-vbng-02</field>
+            <field name="gender">drama</field>
+        </record>
+        <record model="library.book" id="book_06">
+            <field name="name">El primer libro diferente</field>
+            <field name="authors">Autor Apellido</field>
+            <field name="editor">Editor Apellido</field>
+            <field name="editorial">La editorial más grande</field>
+            <field name="year_edition">2018</field>
+            <field name="isbn">10-485-pdkf-02</field>
+            <field name="gender">drama</field>
+        </record>
+        <record model="library.book" id="book_07">
+            <field name="name">El segundo libro diferente</field>
+            <field name="authors">Autor Apellido</field>
+            <field name="editor">Editor Apellido Dos</field>
+            <field name="editorial">La editorial no tan grande</field>
+            <field name="year_edition">2020</field>
+            <field name="isbn">10-9615-tgbv-02</field>
+            <field name="gender">science</field>
+        </record>
+    </data>
+</odoo>
