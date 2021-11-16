@@ -22,7 +22,8 @@
     'depends': ['base'],
     
     'data': [
-        
+        'security/space_mision_security.xml',
+        'security/space_mision_access.csv'
     ],
     
     'demo': [

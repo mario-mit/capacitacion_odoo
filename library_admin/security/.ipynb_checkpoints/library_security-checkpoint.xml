@@ -1,0 +1,7 @@
+<?xml version="1.0" coding="utf-8" ?>
+
+<odoo>
+    <record id="group_library_admin" model="res.groups">
+        <field name="name">Libray_Admin / Admin</field>
+    </record>
+</odoo>

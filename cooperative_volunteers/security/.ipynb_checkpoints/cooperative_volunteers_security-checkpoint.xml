@@ -1,0 +1,7 @@
+<?xml version="1.0" coding="utf-8" ?>
+
+<odoo>
+    <record id="group_cooperative_volunteer_security" model="res.groups">
+        <field name="name">Cooperative_Admin / Admin</field>
+    </record>
+</odoo>

@@ -1,0 +1,7 @@
+<?xml version="1.0" coding="utf-8" ?>
+
+<odoo>
+    <record id="group_space_mision" model="res.groups">
+        <field name="name">Space_Mision / Admin</field>
+    </record>
+</odoo>
