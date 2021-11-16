@@ -12,5 +12,5 @@ class Task(models.Model):
     initial_date=fields.Datetime(string="Start date", required=True)
     finish_date=fields.Datetime(string="Finish date", required=True)
     repeat=fields.Boolean(string="Repeat", reuired=True, default=False)
-    frecuency=fields.Selecion(string="Frecuency", selection=[('day','Day'),('month','Month'),('year','Year')])
+    frecuency=fields.Selection(string="Frecuency", selection=[('day','Day'),('month','Month'),('year','Year')])
     
