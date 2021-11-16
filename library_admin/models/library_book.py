@@ -12,5 +12,5 @@ class Book(models.Model):
     editorial=fields.Char(string="Editorial", required=True)
     year_edition=fields.Integer(string="Year", required=True)
     isbn=fields.Char(string="ISBN", required=True)
-    gender=fields.Seleccion(string="Gender", required=True, selection=[('action','Action'),('drama','Drama'),('terror','Terror'),('science','Science'),('sports','Sports')])
+    gender=fields.Selection(string="Gender", required=True, selection=[('action','Action'),('drama','Drama'),('terror','Terror'),('science','Science'),('sports','Sports')])
     
