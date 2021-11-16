@@ -1,0 +1,35 @@
+<?xml version="1.0" coding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="space.ship" id="ship_xl_01">
+            <field name="name">La Niña</field>
+            <field name="width">800.00</field>
+            <field name="height">800.00</field>
+            <field name="length">800.00</field>
+            <field name="ship_type">large</field>
+            <field name="fuel_type">solid</field>
+            <field name="num_pasangers">8</field>
+            <field name="active">True</field>
+        </record>
+        <record model="space.ship" id="ship_xl_02">
+            <field name="name">La Pinta</field>
+            <field name="width">800.00</field>
+            <field name="height">800.00</field>
+            <field name="length">800.00</field>
+            <field name="ship_type">large</field>
+            <field name="fuel_type">liquid</field>
+            <field name="num_pasangers">8</field>
+            <field name="active">True</field>
+        </record>
+        <record model="space.ship" id="ship_sm_01">
+            <field name="name">La Santa María</field>
+            <field name="width">400.00</field>
+            <field name="height">400.00</field>
+            <field name="length">400.00</field>
+            <field name="ship_type">small</field>
+            <field name="fuel_type">solid</field>
+            <field name="num_pasangers">4</field>
+            <field name="active">True</field>
+        </record>
+    </data>
+</odoo>
