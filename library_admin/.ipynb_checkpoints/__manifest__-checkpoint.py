@@ -23,8 +23,7 @@
     'depends': ['base'],
     
     'data':[
-        'security/library_security.xml',
-        'security/library_access.csv'
+        
     ],
     
     'demo':[

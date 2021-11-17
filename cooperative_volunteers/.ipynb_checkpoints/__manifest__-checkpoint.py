@@ -22,8 +22,7 @@
     'depends':['base'],
     
     'data': [
-        'security/cooperative_volunteers_security.xml',
-        'security/cooperative_volunteers_access.csv'
+        
     ],
     
     'demo':[
