@@ -24,7 +24,8 @@
     'data': [
         'security/space_mision_security.xml',
         'security/ir.model.access.csv',
-        'views/space_mision_menuitem.xml'
+        'views/space_mision_menuitem.xml',
+        'views/space_mision_views.xml'
     ],
     
     'demo': [

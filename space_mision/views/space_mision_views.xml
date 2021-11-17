@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="ships_view_form">
+            <field name="name">ships.form</field>
+            <field name="model">space.ship</field>
+            <field name="arch" type="html">
+                <form string="Ship Form">
+                    <sheet>
+                        <h1><field name="name" /></h1>
+                        <group>
+                            <field name="width" />
+                            <field name="height" />
+                            <field name="length" />
+                        </group>
+                        <group>
+                            <field name="ship_type" />
+                            <field name="fuel_type" />
+                            <field name="num_pasangers" />
+                            <field name="active" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        
+        <record model="ir.ui.view" id="ships_view_list">
+            <field name="name">ships.list</field>
+            <field name="model">space.ship</field>
+            <field name="arch" type="xml">
+                <tree string="Ship List">
+                    <field name="name" />
+                    <field name="ship_type" />
+                    <field name="fuel_type" />
+                    <field name="width" />
+                    <field name="height" />
+                    <field name="length" />
+                    <field name="active" />
+                </tree>
+            </field>
+        </record>
+        
+        <record model="ir.ui.view" id="ships_view_search">
+            <field name="name">ships.search</field>
+            <field name="model">space.ship</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name" />
+                    <field name="ship_type" />
+                    <field name="fuel_type" />
+                </search>
+            </field>
+        </record>
+    </data>
+</odoo>
