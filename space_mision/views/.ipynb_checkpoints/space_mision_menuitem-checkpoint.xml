@@ -12,7 +12,7 @@
         
         <menuitem name="Space Mission" id="menu_space_mision" sequence="1" />
         <menuitem name="Space" id="menu_sapce_space" parent="menu_space_mision" sequence="2" />
-        <menuitem name="Ships" id="menu_sapce_ships" parent="menu_sapce_sub" sequence="3"
+        <menuitem name="Ships" id="menu_sapce_ships" parent="menu_sapce_space" sequence="3"
                   action="ships_list_action"/>
     </data>
 </odoo>
