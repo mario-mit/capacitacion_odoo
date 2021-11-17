@@ -23,7 +23,8 @@
     
     'data': [
         'security/coop_volunteers_security.xml',
-        'security/ir.model.access.csv'
+        'security/ir.model.access.csv',
+        'views/cooperative_menuitmes.xml'
     ],
     
     'demo':[
