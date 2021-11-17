@@ -1,0 +1,15 @@
+<?xml vresion="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record model="ir.actions.act.windows" id="ships_list_action">
+            <field name="name">Ships</field>
+            <field name="res_model">space.ship</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help">Ships list</field>
+        </record>
+        
+        <menuitem name="Space Mission" id="menu_space_mision" sequence="1"/>
+        <menuitem name="Space" id="menu_sapce_space" parent="menu_space_mision" secuence="2"/>
+        <menuitem name="Ships" id="menu_sapce_ships" parent="menu_sapce_sub" secuence="3"/>
+    </data>
+</odoo>
