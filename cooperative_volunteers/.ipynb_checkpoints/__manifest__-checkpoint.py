@@ -22,7 +22,8 @@
     'depends':['base'],
     
     'data': [
-        
+        'security/coop_volunteers_security.xml',
+        'security/ir.model.access.csv'
     ],
     
     'demo':[

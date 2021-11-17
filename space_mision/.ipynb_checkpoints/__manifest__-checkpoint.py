@@ -17,12 +17,13 @@
     
     'category': "Space",
     
-    'version': "0.1",
+    'version': "0.2",
     
     'depends': ['base'],
     
     'data': [
-        
+        'security/space_mision_security.xml',
+        'security/ir.model.access.csv'
     ],
     
     'demo': [
